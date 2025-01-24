@@ -8,9 +8,20 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "CardData",
+"language": "GDScript",
+"path": "res://src/Cards/card_data.gd"
+} ]
+_global_script_class_icons={
+"CardData": ""
+}
+
 [application]
 
 config/name="CardGame"
+run/main_scene="res://src/Cards/Card.tscn"
 config/icon="res://icon.png"
 
 [gui]
