@@ -2,9 +2,9 @@ class_name CardData
 extends Node
 
 enum CARDTYPE{
-	HEARTS,
-	SPADES,
-	CLUBS,
+	CLOVER,
+	SPADE,
+	HEART,
 	DIAMOND
 }
 
